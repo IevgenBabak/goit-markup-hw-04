@@ -92,7 +92,7 @@ header {
 .icon-envelope,
 .icon-smartphone {
   margin-right: 10px;
-  fill: var(--third-black-color);
+  fill:var(--third-black-color);
 }
 .mailto-tel-header:hover .icon,
 .mailto-tel-header:focus .icon {
@@ -107,13 +107,15 @@ header {
 }
 .mailto-tel-header.link {
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 .first-header-container {
   display: flex;
   align-items: center;
 }
 .second-header-container {
-  align-items: flex-end;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -245,7 +247,6 @@ nav.container {
 .advantages-icon {
   display: flex;
   align-items: center;
-  justify-content: center;
   width: 270px;
   height: 120px;
   background-color: var(--background-button-color);
