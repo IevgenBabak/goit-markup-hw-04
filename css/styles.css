@@ -92,6 +92,7 @@ header {
 .icon-envelope,
 .icon-smartphone {
   margin-right: 10px;
+  fill:var(--third-black-color);
 }
 
 .mailto-tel-header:hover .icon,
