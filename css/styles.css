@@ -94,7 +94,6 @@ header {
   margin-right: 10px;
   fill:var(--third-black-color);
 }
-
 .mailto-tel-header:hover .icon,
 .mailto-tel-header:focus .icon {
   fill: var(--accent-color);
@@ -140,7 +139,6 @@ nav.container {
   background-color: var(--backgroun-footer-color);
   padding: 200px 0;
   text-align: center;
-
   max-width: 1600px;
   min-height: 600px;
   margin-left: auto;
