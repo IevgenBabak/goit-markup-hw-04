@@ -92,7 +92,7 @@ header {
 .icon-envelope,
 .icon-smartphone {
   margin-right: 10px;
-  fill:var(--third-black-color);
+  fill: var(--third-black-color);
 }
 .mailto-tel-header:hover .icon,
 .mailto-tel-header:focus .icon {
@@ -242,10 +242,6 @@ nav.container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* .advantages-li {
-  flex-basis: 270px;
-} */
-
 .advantages-icon {
   display: flex;
   align-items: center;
@@ -257,7 +253,6 @@ nav.container {
   padding: 25px 100px;
   margin-bottom: 30px;
 }
-
 .customer-link {
   display: flex;
   justify-content: center;
