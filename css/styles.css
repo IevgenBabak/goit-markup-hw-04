@@ -242,14 +242,14 @@ nav.container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.advantages-li {
+/* .advantages-li {
   flex-basis: 270px;
-}
+} */
 
-.icon-antenna,
-.icon-clock,
-.icon-diagram,
-.icon-astronaut {
+.advantages-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   background-color: var(--background-button-color);
@@ -257,6 +257,7 @@ nav.container {
   padding: 25px 100px;
   margin-bottom: 30px;
 }
+
 .customer-link {
   display: flex;
   justify-content: center;
