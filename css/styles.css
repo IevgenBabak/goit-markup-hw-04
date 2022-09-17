@@ -30,8 +30,8 @@ body {
   --mailto-ground-color: rgba(255, 255, 255, 0.6);
   --gray-border-color: #eeeeee;
   --header-line-color: #ececec;
-  --customer-border-color:#AFB1B8;
-  --elipse-color: #43444D;
+  --customer-border-color: #afb1b8;
+  --elipse-color: #43444d;
 }
 li {
   list-style-type: none;
@@ -139,16 +139,13 @@ nav.container {
   background-color: var(--backgroun-footer-color);
   padding: 200px 0;
   text-align: center;
-  
+
   max-width: 1600px;
   min-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(
-    to right,
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-    ), url("../images/hero-Img.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/hero-Img.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -259,7 +256,7 @@ nav.container {
   background-color: var(--background-button-color);
   border-radius: 4px;
   padding: 25px 100px;
-  margin-bottom: 30px;  
+  margin-bottom: 30px;
 }
 .customer-link {
   display: flex;
@@ -270,12 +267,12 @@ nav.container {
   background-color: var(--second-white-color);
   outline: 1px solid var(--customer-border-color);
   fill: var(--customer-border-color);
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 .customer-link:focus,
 .customer-link:active,
 .customer-link:hover {
-  fill:var(--accent-color);
+  fill: var(--accent-color);
   outline: 1px solid var(--accent-color);
 }
 .advantages-title {
@@ -345,9 +342,8 @@ nav.container {
 }
 .regular-customers-line {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   gap: 30px;
-
 }
 
 .portfolio {
@@ -416,18 +412,17 @@ nav.container {
   margin-bottom: 9px;
 }
 .web {
-   margin-left: 70px;
+  margin-left: 70px;
 }
 .container.footer {
-  display:flex;
-  align-items:baseline;
+  display: flex;
+  align-items: baseline;
 }
 .footer-text {
   color: var(--brand-color);
   text-transform: uppercase;
   padding-bottom: 20px;
   line-height: 1.14;
-
 }
 .footer-web {
   display: flex;
@@ -460,7 +455,8 @@ nav.container {
 .s-w-our-team {
   width: 44px;
   height: 44px;
-  background-color: transparent;
+  color: var(--customer-border-color);
+  background-color: var(--brand-color);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -468,21 +464,18 @@ nav.container {
 }
 .s-w-our-team:hover,
 .s-w-our-team:focus {
-background-color: var(--accent-color);
+  color: var(--brand-color);
+  background-color: var(--accent-color);
 }
 .icon-our-team {
-  fill: var(--customer-border-color);
-  /* padding: 12px; */
-}
-.icon-our-team:hover,
-.icon-our-team:focus {
-  fill: var(--brand-color);
+  fill: currentColor;
 }
 .portfolio-box-link {
   display: block;
-  text-decoration:none;
+  text-decoration: none;
   color: var(--third-black-color);
 }
 .portfolio-box-link:hover {
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
