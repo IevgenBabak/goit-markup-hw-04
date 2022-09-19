@@ -3,7 +3,7 @@ p,
 h1,
 h2,
 h3,
-h4,
+h4,А
 h5,
 h6 {
   padding: 0;
@@ -58,10 +58,6 @@ header {
   color: var(--prime-black-color);
 }
 .accent {
-  color: var(--accent-color);
-}
-.logo:focus,
-.logo:active {
   color: var(--accent-color);
 }
 .nav {
@@ -417,7 +413,7 @@ nav.container {
 .footer-text {
   color: var(--brand-color);
   text-transform: uppercase;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   line-height: 1.14;
 }
 .footer-web {
@@ -471,7 +467,8 @@ nav.container {
   text-decoration: none;
   color: var(--third-black-color);
 }
-.portfolio-box-link:hover {
+.portfolio-box-link:hover,
+.portfolio-box-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
